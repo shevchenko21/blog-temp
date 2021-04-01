@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `清风朗月`,
+    title: `Enter your name`,
     image: "/gatsby-icon.png",
-    description: `Gatsby Starter Breeze`,
+    description: `Get Started`,
     siteUrl: `https://gatsby-starter-breeze.netlify.app/`,
     social: {
       douban: "#",
@@ -21,7 +21,7 @@ module.exports = {
       { url: "/tags/", label: "标签" },
       { url: "/about", label: "About" },
     ],
-    footerHTML: `© 2020 <a href="https://github.com/keithnull">Keith Null</a> All rights reserved.`,
+    footerHTML: `© 2021 All rights reserved.`,
     dateFormat: `YYYY-MM-DD`,
     language: `zh`,
   },
@@ -157,11 +157,11 @@ module.exports = {
       resolve: "gatsby-plugin-gitalk",
       options: {
         config: {
-          clientID: "ee045e67607d9cc5d75b",
-          clientSecret: "c0f18c2238127559210f0bf94711a5c345eea7f8",
-          repo: "gatsby-starter-breeze",
-          owner: "keithnull",
-          admin: ["keithnull"],
+          clientID: "580ef54f8211e68e18a2",
+          clientSecret: "87030ad1f826e1969f5482d0d30906458df331a7",
+          repo: "blog-temp",
+          owner: "shevchenko21",
+          admin: ["shevchenko21"],
           pagerDirection: "last",
           createIssueManually: true,
           distractionFreeMode: true,
